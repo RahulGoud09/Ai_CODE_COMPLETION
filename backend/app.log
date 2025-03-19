@@ -1,0 +1,1604 @@
+2025-03-15 15:12:34,784 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:12:34,784 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:12:34,784 - __main__ - INFO - Available routes:
+2025-03-15 15:12:34,784 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:12:34,784 - __main__ - INFO -   /api/complete
+2025-03-15 15:12:34,784 - __main__ - INFO -   /api/languages
+2025-03-15 15:12:34,784 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:12:34,784 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:12:34,784 - __main__ - INFO -   /api/health
+2025-03-15 15:12:34,784 - __main__ - INFO -   /
+2025-03-15 15:12:34,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-15 15:12:34,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:12:34,796 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:12:35,033 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:12:35,033 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:12:35,033 - __main__ - INFO - Available routes:
+2025-03-15 15:12:35,033 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:12:35,033 - __main__ - INFO -   /api/complete
+2025-03-15 15:12:35,033 - __main__ - INFO -   /api/languages
+2025-03-15 15:12:35,033 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:12:35,033 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:12:35,034 - __main__ - INFO -   /api/health
+2025-03-15 15:12:35,034 - __main__ - INFO -   /
+2025-03-15 15:12:35,036 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:12:35,043 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:12:40,128 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:12:40,128 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:40] "GET / HTTP/1.1" 200 -
+2025-03-15 15:12:40,139 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:12:40,140 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 15:12:48,102 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:12:48,103 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:48] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:48,107 - __main__ - INFO - Request processed in 0.0013 seconds
+2025-03-15 15:12:48,107 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:48,310 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-15 15:12:48,311 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:48,583 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-15 15:12:48,584 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:49,308 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-15 15:12:49,309 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:51,600 - __main__ - INFO - Request processed in 0.0012 seconds
+2025-03-15 15:12:51,601 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:51] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:55,663 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:12:55,664 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:55] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:55,668 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:12:55,668 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:55] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:59,176 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:12:59,176 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:59] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:12:59,958 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:12:59,959 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:12:59] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:00,358 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:00,359 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:00] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:00,572 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:00,572 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:00] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:02,200 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:02,201 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:02] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:02,203 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:13:02,204 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:02] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:02,563 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:02,563 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:02] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:06,073 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:06,074 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:06] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:06,398 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:06,399 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:06] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:08,096 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:08,097 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:08] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:08,099 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:08,100 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:08] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:08,363 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:08,364 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:08] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:08,956 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:08,957 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:08] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:09,186 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:13:09,186 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:09,678 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:09,678 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:09,761 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:09,761 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:09,846 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:09,846 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:09,931 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:09,932 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:10,015 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-15 15:13:10,016 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:10] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:10,095 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:10,095 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:10] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:12,953 - __main__ - INFO - Request processed in 0.0011 seconds
+2025-03-15 15:13:12,954 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:12] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:13,354 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:13,355 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:13] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:13,359 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:13:13,359 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:13] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:14,469 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:14,469 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:14] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:16,437 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:16,437 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:16] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:20,819 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:20,820 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:20] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:20,823 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:20,823 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:20] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:21,163 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:21,164 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:21] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:21,447 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:13:21,447 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:21] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:24,261 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:13:24,262 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:24] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:13:25,247 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:13:25,248 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:13:25] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:15:00,386 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:15:00,386 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:15:00,386 - __main__ - INFO - Available routes:
+2025-03-15 15:15:00,386 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:15:00,386 - __main__ - INFO -   /api/complete
+2025-03-15 15:15:00,386 - __main__ - INFO -   /api/languages
+2025-03-15 15:15:00,386 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:15:00,386 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:15:00,386 - __main__ - INFO -   /api/health
+2025-03-15 15:15:00,386 - __main__ - INFO -   /
+2025-03-15 15:24:46,473 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:24:46,473 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:24:46,473 - __main__ - INFO - Available routes:
+2025-03-15 15:24:46,473 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/complete
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/languages
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/health
+2025-03-15 15:24:46,473 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:24:46,473 - __main__ - INFO -   /
+2025-03-15 15:24:46,483 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-15 15:24:46,483 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:24:46,483 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:24:46,872 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:24:46,873 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:24:46,873 - __main__ - INFO - Available routes:
+2025-03-15 15:24:46,873 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/complete
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/languages
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/health
+2025-03-15 15:24:46,873 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:24:46,873 - __main__ - INFO -   /
+2025-03-15 15:24:46,874 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:24:46,880 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:25:25,572 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:25:25,572 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:25:25,572 - __main__ - INFO - Available routes:
+2025-03-15 15:25:25,572 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/complete
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/languages
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/health
+2025-03-15 15:25:25,572 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:25:25,572 - __main__ - INFO -   /
+2025-03-15 15:25:25,580 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-15 15:25:25,580 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:25:25,581 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:25:25,958 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:25:25,958 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:25:25,958 - __main__ - INFO - Available routes:
+2025-03-15 15:25:25,958 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/complete
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/languages
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/health
+2025-03-15 15:25:25,958 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:25:25,958 - __main__ - INFO -   /
+2025-03-15 15:25:25,960 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:25:25,966 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:25:44,110 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:25:44,110 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:44] "GET / HTTP/1.1" 200 -
+2025-03-15 15:25:44,113 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-15 15:25:44,113 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:44] "GET / HTTP/1.1" 200 -
+2025-03-15 15:25:49,498 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:25:49,499 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:49] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:25:49,502 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-15 15:25:49,502 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:25:49,660 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-15 15:25:49,661 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:25:49,900 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-15 15:25:49,901 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:25:50,566 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:25:50,567 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:50] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:25:53,745 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:25:53,745 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:53] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:25:53,747 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:25:53,750 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:25:53,751 - __main__ - INFO - Request processed in 0.0041 seconds
+2025-03-15 15:25:53,751 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:53] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:25:59,965 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:25:59,966 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:59] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:25:59,970 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:25:59,972 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:25:59,972 - __main__ - INFO - Request processed in 0.0035 seconds
+2025-03-15 15:25:59,972 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:59] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:26:02,650 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:26:02,651 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:26:02,651 - __main__ - INFO - Request processed in 0.0022 seconds
+2025-03-15 15:26:02,651 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:26:02] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:26:07,030 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:26:07,030 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:26:07] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:26:07,033 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:26:07,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:26:07,033 - __main__ - INFO - Request processed in 0.0013 seconds
+2025-03-15 15:26:07,034 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:26:07] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:26:11,665 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:26:11,666 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:26:11,666 - __main__ - INFO - Request processed in 0.0022 seconds
+2025-03-15 15:26:11,666 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:26:11] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:43,286 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:27:43,287 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:43] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:27:43,289 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:27:43,289 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:43] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:27:44,344 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:27:44,345 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:44] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:27:44,347 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:44,347 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:44,347 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-15 15:27:44,347 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:44] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:47,264 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:47,265 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:47,265 - __main__ - INFO - Request processed in 0.0022 seconds
+2025-03-15 15:27:47,266 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:47] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:50,596 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:27:50,597 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:50] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:27:50,600 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:50,601 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:50,601 - __main__ - INFO - Request processed in 0.0018 seconds
+2025-03-15 15:27:50,602 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:50] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:50,761 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:50,762 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:50,762 - __main__ - INFO - Request processed in 0.0014 seconds
+2025-03-15 15:27:50,762 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:50] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:50,964 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:50,965 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:50,965 - __main__ - INFO - Request processed in 0.0022 seconds
+2025-03-15 15:27:50,965 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:50] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:51,148 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:51,149 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:51,149 - __main__ - INFO - Request processed in 0.0024 seconds
+2025-03-15 15:27:51,150 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:51] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:51,301 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:51,302 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:51,302 - __main__ - INFO - Request processed in 0.0021 seconds
+2025-03-15 15:27:51,302 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:51] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:27:54,704 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:27:54,705 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 122, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:27:54,705 - __main__ - INFO - Request processed in 0.0021 seconds
+2025-03-15 15:27:54,705 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:27:54] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:35:06,171 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:35:06,171 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:35:06,171 - __main__ - INFO - Available routes:
+2025-03-15 15:35:06,171 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/complete
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/languages
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/health
+2025-03-15 15:35:06,171 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:35:06,171 - __main__ - INFO -   /
+2025-03-15 15:35:06,179 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-15 15:35:06,179 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:35:06,179 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:35:06,581 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:35:06,581 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:35:06,581 - __main__ - INFO - Available routes:
+2025-03-15 15:35:06,581 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/complete
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/languages
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/health
+2025-03-15 15:35:06,581 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:35:06,581 - __main__ - INFO -   /
+2025-03-15 15:35:06,583 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:35:06,589 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:35:40,141 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:35:40,142 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:35:40] "GET / HTTP/1.1" 200 -
+2025-03-15 15:36:29,597 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:36:29,597 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:29] "GET / HTTP/1.1" 200 -
+2025-03-15 15:36:29,599 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:36:29,599 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:29] "GET / HTTP/1.1" 200 -
+2025-03-15 15:36:42,134 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:36:42,135 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:42] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:36:42,138 - __main__ - INFO - Request processed in 0.0015 seconds
+2025-03-15 15:36:42,139 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:42] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:36:43,557 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:36:43,558 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:43] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:36:43,560 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:36:43,564 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = OpenAI(api_key=openai_api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 112, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:36:43,565 - __main__ - INFO - Request processed in 0.0053 seconds
+2025-03-15 15:36:43,565 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:43] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:36:47,014 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:36:47,016 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    client = OpenAI(api_key=openai_api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 112, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:36:47,016 - __main__ - INFO - Request processed in 0.0024 seconds
+2025-03-15 15:36:47,016 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:36:47] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:37:17,684 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/app.py', reloading
+2025-03-15 15:37:17,755 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:37:18,235 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:37:18,235 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:37:18,235 - __main__ - INFO - Available routes:
+2025-03-15 15:37:18,236 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/complete
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/languages
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/health
+2025-03-15 15:37:18,236 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:37:18,236 - __main__ - INFO -   /
+2025-03-15 15:37:18,239 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:37:18,246 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:37:19,257 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/app.py', reloading
+2025-03-15 15:37:19,309 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:37:19,700 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:37:19,700 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:37:19,700 - __main__ - INFO - Available routes:
+2025-03-15 15:37:19,700 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/complete
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/languages
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/health
+2025-03-15 15:37:19,700 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:37:19,700 - __main__ - INFO -   /
+2025-03-15 15:37:19,702 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:37:19,707 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:39:07,635 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:39:07,635 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:39:07,636 - __main__ - INFO - Available routes:
+2025-03-15 15:39:07,636 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/complete
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/languages
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/health
+2025-03-15 15:39:07,636 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:39:07,636 - __main__ - INFO -   /
+2025-03-15 15:39:07,643 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-15 15:39:07,643 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:39:07,643 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:39:08,033 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:39:08,033 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:39:08,033 - __main__ - INFO - Available routes:
+2025-03-15 15:39:08,033 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/complete
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/languages
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/health
+2025-03-15 15:39:08,033 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:39:08,033 - __main__ - INFO -   /
+2025-03-15 15:39:08,035 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:39:08,040 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:39:31,300 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:39:31,301 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:39:31] "GET / HTTP/1.1" 200 -
+2025-03-15 15:39:42,641 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-15 15:39:42,642 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:39:42] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:39:42,646 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:39:42,650 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    completion = openai.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 20, in __getattr__
+    proxied = self.__get_proxied__()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 55, in __get_proxied__
+    return self.__load__()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_module_client.py", line 12, in __load__
+    return _load_client().chat
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/__init__.py", line 297, in _load_client
+    _client = _ModuleClient(
+              ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 112, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:39:42,651 - __main__ - INFO - Request processed in 0.0063 seconds
+2025-03-15 15:39:42,651 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:39:42] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:39:43,141 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:39:43,143 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    completion = openai.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 20, in __getattr__
+    proxied = self.__get_proxied__()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 55, in __get_proxied__
+    return self.__load__()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_module_client.py", line 12, in __load__
+    return _load_client().chat
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/__init__.py", line 297, in _load_client
+    _client = _ModuleClient(
+              ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 112, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:39:43,144 - __main__ - INFO - Request processed in 0.0033 seconds
+2025-03-15 15:39:43,144 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:39:43] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:40:06,245 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:40:06,245 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:06] "GET / HTTP/1.1" 200 -
+2025-03-15 15:40:06,247 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:40:06,247 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:06] "GET / HTTP/1.1" 200 -
+2025-03-15 15:40:14,259 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:40:14,260 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:14] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-15 15:40:14,264 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-15 15:40:14,265 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:14] "POST /api/complete HTTP/1.1" 200 -
+2025-03-15 15:40:15,403 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:40:15,404 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:15] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:40:15,406 - __main__ - ERROR - Error with OpenAI API: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-15 15:40:15,407 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 263, in openai_completion
+    completion = openai.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 20, in __getattr__
+    proxied = self.__get_proxied__()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_proxy.py", line 55, in __get_proxied__
+    return self.__load__()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_module_client.py", line 12, in __load__
+    return _load_client().chat
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/__init__.py", line 297, in _load_client
+    _client = _ModuleClient(
+              ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_client.py", line 112, in __init__
+    super().__init__(
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-15 15:40:15,408 - __main__ - INFO - Request processed in 0.0021 seconds
+2025-03-15 15:40:15,408 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:40:15] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:41:08,013 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/app.py', reloading
+2025-03-15 15:41:08,060 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:44:09,603 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:44:09,603 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:44:09,603 - __main__ - INFO - Available routes:
+2025-03-15 15:44:09,603 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/complete
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/languages
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/health
+2025-03-15 15:44:09,603 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:44:09,604 - __main__ - INFO -   /
+2025-03-15 15:44:18,038 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:44:18,038 - __main__ - INFO - Server will run on port 5000
+2025-03-15 15:44:18,038 - __main__ - INFO - Available routes:
+2025-03-15 15:44:18,038 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/complete
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/languages
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/health
+2025-03-15 15:44:18,038 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:44:18,038 - __main__ - INFO -   /
+2025-03-15 15:46:27,026 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:46:27,026 - __main__ - INFO - Server will run on port 5001
+2025-03-15 15:46:27,026 - __main__ - INFO - Available routes:
+2025-03-15 15:46:27,026 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/complete
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/languages
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/health
+2025-03-15 15:46:27,026 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:46:27,026 - __main__ - INFO -   /
+2025-03-15 15:46:27,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.103:5001
+2025-03-15 15:46:27,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:46:27,034 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:46:27,499 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:46:27,499 - __main__ - INFO - Server will run on port 5001
+2025-03-15 15:46:27,499 - __main__ - INFO - Available routes:
+2025-03-15 15:46:27,499 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/complete
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/languages
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/health
+2025-03-15 15:46:27,499 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:46:27,500 - __main__ - INFO -   /
+2025-03-15 15:46:27,502 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:46:27,508 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:46:38,394 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:46:38,394 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:46:38] "GET / HTTP/1.1" 200 -
+2025-03-15 15:46:38,408 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:46:38,409 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:46:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 15:49:48,240 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:49:48,240 - __main__ - INFO - Server will run on port 5001
+2025-03-15 15:49:48,240 - __main__ - INFO - Available routes:
+2025-03-15 15:49:48,240 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/complete
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/languages
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/health
+2025-03-15 15:49:48,241 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:49:48,241 - __main__ - INFO -   /
+2025-03-15 15:49:48,249 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.103:5001
+2025-03-15 15:49:48,249 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:49:48,249 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:49:48,739 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:49:48,739 - __main__ - INFO - Server will run on port 5001
+2025-03-15 15:49:48,739 - __main__ - INFO - Available routes:
+2025-03-15 15:49:48,739 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:49:48,739 - __main__ - INFO -   /api/complete
+2025-03-15 15:49:48,739 - __main__ - INFO -   /api/languages
+2025-03-15 15:49:48,739 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:49:48,739 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:49:48,740 - __main__ - INFO -   /api/health
+2025-03-15 15:49:48,740 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:49:48,740 - __main__ - INFO -   /
+2025-03-15 15:49:48,741 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:49:48,748 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:49:51,187 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:49:51,188 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:49:51] "GET / HTTP/1.1" 200 -
+2025-03-15 15:50:12,683 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:50:12,684 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:12] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:50:12,710 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:12,712 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:12,713 - __main__ - INFO - Request processed in 0.0272 seconds
+2025-03-15 15:50:12,713 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:12] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:13,170 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:13,171 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:13,171 - __main__ - INFO - Request processed in 0.0025 seconds
+2025-03-15 15:50:13,171 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:13] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:13,524 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:13,525 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:13,525 - __main__ - INFO - Request processed in 0.0026 seconds
+2025-03-15 15:50:13,526 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:13] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:13,703 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:13,704 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:13,704 - __main__ - INFO - Request processed in 0.0029 seconds
+2025-03-15 15:50:13,704 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:13] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:13,885 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:13,886 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:13,886 - __main__ - INFO - Request processed in 0.0022 seconds
+2025-03-15 15:50:13,887 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:13] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:14,035 - __main__ - ERROR - Error with OpenAI API: 'Client' object is not callable
+2025-03-15 15:50:14,036 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 277, in openai_completion
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 586, in request_raw
+    _thread_context.session = _make_session()
+                              ^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/api_requestor.py", line 86, in _make_session
+    return openai.requestssession()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not callable
+
+2025-03-15 15:50:14,036 - __main__ - INFO - Request processed in 0.0023 seconds
+2025-03-15 15:50:14,037 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:50:14] "[35m[1mPOST /api/openai/completion HTTP/1.1[0m" 500 -
+2025-03-15 15:50:25,995 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:50:25,995 - __main__ - INFO - Server will run on port 5001
+2025-03-15 15:50:25,995 - __main__ - INFO - Available routes:
+2025-03-15 15:50:25,995 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:50:25,995 - __main__ - INFO -   /api/complete
+2025-03-15 15:50:25,996 - __main__ - INFO -   /api/languages
+2025-03-15 15:50:25,996 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:50:25,996 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:50:25,996 - __main__ - INFO -   /api/health
+2025-03-15 15:50:25,996 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:50:25,996 - __main__ - INFO -   /
+2025-03-15 15:54:55,460 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:54:55,460 - __main__ - INFO - Server will run on port 5002
+2025-03-15 15:54:55,460 - __main__ - INFO - Available routes:
+2025-03-15 15:54:55,461 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/complete
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/languages
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/health
+2025-03-15 15:54:55,461 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:54:55,461 - __main__ - INFO -   /
+2025-03-15 15:54:55,468 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.103:5002
+2025-03-15 15:54:55,468 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:54:55,469 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 15:54:55,868 - __main__ - INFO - Starting Flask server...
+2025-03-15 15:54:55,868 - __main__ - INFO - Server will run on port 5002
+2025-03-15 15:54:55,868 - __main__ - INFO - Available routes:
+2025-03-15 15:54:55,868 - __main__ - INFO -   /static/<path:filename>
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/complete
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/languages
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/auth/login
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/admin/stats
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/health
+2025-03-15 15:54:55,868 - __main__ - INFO -   /api/openai/completion
+2025-03-15 15:54:55,868 - __main__ - INFO -   /
+2025-03-15 15:54:55,870 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 15:54:55,876 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-15 15:55:00,227 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:55:00,227 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:00] "GET /api/health HTTP/1.1" 200 -
+2025-03-15 15:55:07,560 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:55:07,560 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:07] "GET / HTTP/1.1" 200 -
+2025-03-15 15:55:07,575 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-15 15:55:07,575 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 15:55:11,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:11,419 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860461 seconds
+2025-03-15 15:55:13,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:13,054 - openai._base_client - INFO - Retrying request to /chat/completions in 1.694780 seconds
+2025-03-15 15:55:15,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:15,104 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-15 15:55:15,110 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-15 15:55:15,110 - __main__ - INFO - Request processed in 4.3292 seconds
+2025-03-15 15:55:15,111 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:15] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-15 15:55:42,529 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-15 15:55:42,530 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:42] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:55:42,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:42,902 - openai._base_client - INFO - Retrying request to /chat/completions in 0.930192 seconds
+2025-03-15 15:55:44,112 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:44,113 - openai._base_client - INFO - Retrying request to /chat/completions in 1.555792 seconds
+2025-03-15 15:55:46,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:46,030 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-15 15:55:46,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-15 15:55:46,032 - __main__ - INFO - Request processed in 3.5017 seconds
+2025-03-15 15:55:46,033 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:46] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-15 15:55:52,965 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-15 15:55:52,966 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:52] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-15 15:55:53,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:53,412 - openai._base_client - INFO - Retrying request to /chat/completions in 0.933060 seconds
+2025-03-15 15:55:54,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:54,736 - openai._base_client - INFO - Retrying request to /chat/completions in 1.634724 seconds
+2025-03-15 15:55:56,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-15 15:55:56,700 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-15 15:55:56,702 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-15 15:55:56,702 - __main__ - INFO - Request processed in 3.7347 seconds
+2025-03-15 15:55:56,703 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 15:55:56] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-17 09:23:43,309 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:23:43,311 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:23:43,311 - __main__ - INFO - Available routes:
+2025-03-17 09:23:43,311 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/complete
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/languages
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/health
+2025-03-17 09:23:43,311 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:23:43,311 - __main__ - INFO -   /
+2025-03-17 09:23:43,321 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://127.0.0.1:5002
+2025-03-17 09:23:43,321 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:23:43,321 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:23:43,702 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:23:43,702 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:23:43,702 - __main__ - INFO - Available routes:
+2025-03-17 09:23:43,703 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/complete
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/languages
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/health
+2025-03-17 09:23:43,703 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:23:43,703 - __main__ - INFO -   /
+2025-03-17 09:23:43,704 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:23:43,709 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:23:48,374 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:23:48,374 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:23:48] "GET / HTTP/1.1" 200 -
+2025-03-17 09:23:48,577 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:23:48,578 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:23:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 09:24:34,018 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:24:34,019 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:34] "GET / HTTP/1.1" 200 -
+2025-03-17 09:24:34,020 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:24:34,020 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:34] "GET / HTTP/1.1" 200 -
+2025-03-17 09:24:38,669 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:24:38,670 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:38] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:24:38,674 - __main__ - INFO - Request processed in 0.0011 seconds
+2025-03-17 09:24:38,675 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:38] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:24:39,456 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:24:39,457 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:39] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:24:39,621 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:24:39,621 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:39] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:24:39,827 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:24:39,827 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:39] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:24:39,978 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:24:39,978 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:24:39] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:26:02,174 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:26:02,175 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:26:02] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:26:02,177 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:26:02,177 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:26:02] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:26:03,449 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:26:03,450 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:26:03] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:26:04,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:26:04,989 - openai._base_client - INFO - Retrying request to /chat/completions in 0.880728 seconds
+2025-03-17 09:26:06,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:26:06,262 - openai._base_client - INFO - Retrying request to /chat/completions in 1.592558 seconds
+2025-03-17 09:26:08,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:26:08,125 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-17 09:26:08,130 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-17 09:26:08,131 - __main__ - INFO - Request processed in 4.6796 seconds
+2025-03-17 09:26:08,132 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:26:08] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-17 09:27:55,674 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/test_key_status.py', reloading
+2025-03-17 09:27:55,747 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:27:56,248 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:27:56,248 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:27:56,248 - __main__ - INFO - Available routes:
+2025-03-17 09:27:56,248 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/complete
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/languages
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/health
+2025-03-17 09:27:56,248 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:27:56,248 - __main__ - INFO -   /
+2025-03-17 09:27:56,252 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:27:56,257 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:28:52,657 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:28:52,657 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:28:52,657 - __main__ - INFO - Available routes:
+2025-03-17 09:28:52,657 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/complete
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/languages
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/health
+2025-03-17 09:28:52,657 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:28:52,657 - __main__ - INFO -   /
+2025-03-17 09:28:53,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.246:5002
+2025-03-17 09:28:53,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:28:53,535 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:28:53,949 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:28:53,949 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:28:53,949 - __main__ - INFO - Available routes:
+2025-03-17 09:28:53,949 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/complete
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/languages
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/health
+2025-03-17 09:28:53,949 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:28:53,949 - __main__ - INFO -   /
+2025-03-17 09:28:53,950 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:28:53,956 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:29:00,666 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:29:00,667 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:00] "GET / HTTP/1.1" 200 -
+2025-03-17 09:29:24,401 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:29:24,401 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:24] "GET / HTTP/1.1" 200 -
+2025-03-17 09:29:24,402 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:29:24,403 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:24] "GET / HTTP/1.1" 200 -
+2025-03-17 09:29:46,116 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:29:46,117 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:46] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:29:46,120 - __main__ - INFO - Request processed in 0.0011 seconds
+2025-03-17 09:29:46,121 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:46] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:29:47,332 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:29:47,333 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:47] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:29:48,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:29:48,688 - openai._base_client - INFO - Retrying request to /chat/completions in 0.906900 seconds
+2025-03-17 09:29:50,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:29:50,435 - openai._base_client - INFO - Retrying request to /chat/completions in 1.835804 seconds
+2025-03-17 09:29:52,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:29:52,720 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-17 09:29:52,727 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-17 09:29:52,728 - __main__ - INFO - Request processed in 5.3925 seconds
+2025-03-17 09:29:52,728 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:29:52] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-17 09:36:10,622 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:36:10,622 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:36:10,622 - __main__ - INFO - Available routes:
+2025-03-17 09:36:10,622 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/complete
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/languages
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/health
+2025-03-17 09:36:10,622 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:36:10,622 - __main__ - INFO -   /
+2025-03-17 09:36:10,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.246:5002
+2025-03-17 09:36:10,815 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:36:10,817 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:36:11,228 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:36:11,228 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:36:11,228 - __main__ - INFO - Available routes:
+2025-03-17 09:36:11,228 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/complete
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/languages
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/health
+2025-03-17 09:36:11,228 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:36:11,228 - __main__ - INFO -   /
+2025-03-17 09:36:11,230 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:36:11,235 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:36:31,602 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:36:31,602 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:36:31] "GET / HTTP/1.1" 200 -
+2025-03-17 09:37:03,233 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:37:03,233 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:03] "GET / HTTP/1.1" 200 -
+2025-03-17 09:37:03,234 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:37:03,235 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:03] "GET / HTTP/1.1" 200 -
+2025-03-17 09:37:07,011 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:37:07,012 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:07] "GET / HTTP/1.1" 200 -
+2025-03-17 09:37:07,014 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:37:07,014 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:07] "GET / HTTP/1.1" 200 -
+2025-03-17 09:37:15,070 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:37:15,071 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:15] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:15,075 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-17 09:37:15,076 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:15] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:15,265 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 09:37:15,266 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:15] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:15,790 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:15,790 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:15] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:16,586 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-17 09:37:16,587 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:16] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:17,964 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 09:37:17,965 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:17] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:18,128 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:18,128 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:18] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:19,032 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:19,033 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:19] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:19,461 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 09:37:19,462 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:19] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:19,825 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:37:19,825 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:19] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:20,488 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:37:20,489 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:20] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:20,492 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:20,492 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:20] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:21,305 - __main__ - INFO - Request processed in 0.0009 seconds
+2025-03-17 09:37:21,306 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:21] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:21,943 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:21,944 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:21] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:22,943 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-17 09:37:22,944 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:22] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:23,482 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:23,482 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:23] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:24,066 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:37:24,067 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:24] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:24,956 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:24,957 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:24] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:25,079 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:25,080 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:25] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:25,216 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:25,217 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:25] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:27,667 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:37:27,668 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:27] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:27,671 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:27,671 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:27] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:28,663 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:37:28,663 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:28] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:30,612 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:30,613 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:30] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:31,125 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:37:31,125 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:31] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:31,641 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-17 09:37:31,642 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:31] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:37:32,580 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:37:32,581 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:32] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:37:33,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:37:33,582 - openai._base_client - INFO - Retrying request to /chat/completions in 0.981753 seconds
+2025-03-17 09:37:34,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:37:34,899 - openai._base_client - INFO - Retrying request to /chat/completions in 1.512260 seconds
+2025-03-17 09:37:36,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 09:37:36,717 - __main__ - ERROR - Error with OpenAI API: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-17 09:37:36,723 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/rahul/Projects/codecompletion copy/backend/app.py", line 284, in openai_completion
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 590, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1240, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 921, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1053, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/rahul/.pyenv/versions/3.11.6/lib/python3.11/site-packages/openai/_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+2025-03-17 09:37:36,724 - __main__ - INFO - Request processed in 4.1414 seconds
+2025-03-17 09:37:36,724 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:37:36] "[31m[1mPOST /api/openai/completion HTTP/1.1[0m" 402 -
+2025-03-17 09:38:56,677 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/app.py', reloading
+2025-03-17 09:38:56,748 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:38:57,261 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:38:57,261 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:38:57,261 - __main__ - INFO - Available routes:
+2025-03-17 09:38:57,261 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/complete
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/languages
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/health
+2025-03-17 09:38:57,261 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:38:57,261 - __main__ - INFO -   /
+2025-03-17 09:38:57,265 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:38:57,270 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:39:19,428 - werkzeug - INFO -  * Detected change in '/Users/rahul/Projects/codecompletion copy/backend/app.py', reloading
+2025-03-17 09:39:19,480 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:47:57,888 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:47:57,889 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:47:57,889 - __main__ - INFO - Available routes:
+2025-03-17 09:47:57,889 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/complete
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/languages
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/health
+2025-03-17 09:47:57,889 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:47:57,889 - __main__ - INFO -   /
+2025-03-17 09:47:57,974 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.246:5002
+2025-03-17 09:47:57,974 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:47:57,974 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:47:58,754 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:47:58,754 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:47:58,754 - __main__ - INFO - Available routes:
+2025-03-17 09:47:58,754 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/complete
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/languages
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/health
+2025-03-17 09:47:58,754 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:47:58,754 - __main__ - INFO -   /
+2025-03-17 09:47:58,756 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:47:58,763 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:48:11,936 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:48:11,936 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:11] "GET / HTTP/1.1" 200 -
+2025-03-17 09:48:32,118 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 09:48:32,118 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:32] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-03-17 09:48:32,281 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:48:32,282 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 09:49:32,232 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:49:32,232 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:49:32] "GET / HTTP/1.1" 200 -
+2025-03-17 09:49:32,233 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:49:32,234 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:49:32] "GET / HTTP/1.1" 200 -
+2025-03-17 09:49:57,404 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:49:57,404 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:49:57] "GET / HTTP/1.1" 200 -
+2025-03-17 09:49:57,409 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:49:57,410 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:49:57] "GET / HTTP/1.1" 200 -
+2025-03-17 09:50:56,227 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:50:56,227 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:50:56] "GET / HTTP/1.1" 200 -
+2025-03-17 09:50:56,229 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:50:56,229 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:50:56] "GET / HTTP/1.1" 200 -
+2025-03-17 09:50:59,407 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:50:59,407 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:50:59] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:50:59,408 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 09:51:06,919 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:51:06,919 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-17 09:51:12,149 - __main__ - INFO - Request processed in 12.7408 seconds
+2025-03-17 09:51:12,149 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:12] "POST /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:51:52,158 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:51:52,159 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:52] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:51:52,163 - __main__ - INFO - Request processed in 0.0011 seconds
+2025-03-17 09:51:52,164 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:52] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:51:53,275 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:51:53,276 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:53] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:51:53,278 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 09:51:54,192 - __main__ - INFO - Request processed in 0.9141 seconds
+2025-03-17 09:51:54,193 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:54] "POST /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:52:32,367 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:52:32,368 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:52:32] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:52:32,370 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 09:52:35,071 - __main__ - INFO - Request processed in 2.7009 seconds
+2025-03-17 09:52:35,072 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:52:35] "POST /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:53:37,642 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:53:37,642 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:53:37] "GET / HTTP/1.1" 200 -
+2025-03-17 09:53:37,644 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-17 09:53:37,644 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:53:37] "GET / HTTP/1.1" 200 -
+2025-03-17 09:54:28,354 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:54:28,354 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:54:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-17 09:55:40,303 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:55:40,303 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:55:40,303 - __main__ - INFO - Available routes:
+2025-03-17 09:55:40,303 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/complete
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/languages
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/health
+2025-03-17 09:55:40,303 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:55:40,303 - __main__ - INFO -   /
+2025-03-17 09:55:40,324 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.246:5002
+2025-03-17 09:55:40,324 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:55:40,325 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:55:41,041 - __main__ - INFO - Starting Flask server...
+2025-03-17 09:55:41,041 - __main__ - INFO - Server will run on port 5002
+2025-03-17 09:55:41,041 - __main__ - INFO - Available routes:
+2025-03-17 09:55:41,041 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 09:55:41,041 - __main__ - INFO -   /api/complete
+2025-03-17 09:55:41,042 - __main__ - INFO -   /api/languages
+2025-03-17 09:55:41,042 - __main__ - INFO -   /api/auth/login
+2025-03-17 09:55:41,042 - __main__ - INFO -   /api/admin/stats
+2025-03-17 09:55:41,042 - __main__ - INFO -   /api/health
+2025-03-17 09:55:41,042 - __main__ - INFO -   /api/openai/completion
+2025-03-17 09:55:41,042 - __main__ - INFO -   /
+2025-03-17 09:55:41,043 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:55:41,050 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 09:56:10,089 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:56:10,089 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:10] "GET / HTTP/1.1" 200 -
+2025-03-17 09:56:25,857 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:56:25,857 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:25] "GET / HTTP/1.1" 200 -
+2025-03-17 09:56:25,859 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 09:56:25,859 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:25] "GET / HTTP/1.1" 200 -
+2025-03-17 09:56:29,110 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:56:29,111 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:29] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:56:29,116 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-17 09:56:29,116 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:29] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:56:30,545 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:56:30,546 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:30] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:56:37,551 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:56:37,552 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:37] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 09:56:37,557 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 09:56:37,558 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 09:56:38,993 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 09:56:38,994 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:38] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:56:38,996 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 09:56:42,870 - __main__ - INFO - Request processed in 3.8746 seconds
+2025-03-17 09:56:42,871 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:42] "POST /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:56:57,744 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 09:56:57,745 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:56:57] "OPTIONS /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 09:56:57,748 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 09:57:02,737 - __main__ - INFO - Request processed in 4.9902 seconds
+2025-03-17 09:57:02,738 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:57:02] "POST /api/openai/completion HTTP/1.1" 200 -
+2025-03-17 10:10:47,502 - __main__ - INFO - Starting Flask server...
+2025-03-17 10:10:47,502 - __main__ - INFO - Server will run on port 5002
+2025-03-17 10:10:47,503 - __main__ - INFO - Available routes:
+2025-03-17 10:10:47,503 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/complete
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/languages
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/auth/login
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/admin/stats
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/health
+2025-03-17 10:10:47,503 - __main__ - INFO -   /api/ai/completion
+2025-03-17 10:10:47,503 - __main__ - INFO -   /
+2025-03-17 10:10:47,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.246:5002
+2025-03-17 10:10:47,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 10:10:47,538 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 10:10:48,182 - __main__ - INFO - Starting Flask server...
+2025-03-17 10:10:48,182 - __main__ - INFO - Server will run on port 5002
+2025-03-17 10:10:48,183 - __main__ - INFO - Available routes:
+2025-03-17 10:10:48,183 - __main__ - INFO -   /static/<path:filename>
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/complete
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/languages
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/auth/login
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/admin/stats
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/health
+2025-03-17 10:10:48,183 - __main__ - INFO -   /api/ai/completion
+2025-03-17 10:10:48,183 - __main__ - INFO -   /
+2025-03-17 10:10:48,185 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 10:10:48,192 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-17 10:10:56,030 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 10:10:56,030 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:56] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:58,761 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:10:58,762 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:58] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:59,214 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:10:59,215 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:59] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:59,381 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:10:59,381 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:59] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:59,546 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 10:10:59,546 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:59] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:59,714 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:10:59,715 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:59] "GET / HTTP/1.1" 200 -
+2025-03-17 10:10:59,882 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 10:10:59,883 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:10:59] "GET / HTTP/1.1" 200 -
+2025-03-17 10:11:30,721 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:11:30,722 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:30] "GET / HTTP/1.1" 200 -
+2025-03-17 10:11:30,725 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-17 10:11:30,725 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:30] "GET / HTTP/1.1" 200 -
+2025-03-17 10:11:39,470 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-17 10:11:39,471 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:39] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 10:11:39,474 - __main__ - INFO - Request processed in 0.0011 seconds
+2025-03-17 10:11:39,474 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:39] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 10:11:41,575 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-17 10:11:41,576 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:41] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:11:41,579 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 10:11:45,890 - __main__ - INFO - Request processed in 4.3122 seconds
+2025-03-17 10:11:45,891 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:11:45] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:12:05,398 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:12:05,399 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:12:05] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 10:12:05,402 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 10:12:05,402 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:12:05] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 10:13:07,817 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:13:07,817 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:07] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 10:13:07,820 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 10:13:07,821 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:07] "POST /api/complete HTTP/1.1" 200 -
+2025-03-17 10:13:10,272 - __main__ - INFO - Request processed in 0.0009 seconds
+2025-03-17 10:13:10,273 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:10] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:13:10,275 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 10:13:11,811 - __main__ - INFO - Request processed in 1.5363 seconds
+2025-03-17 10:13:11,812 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:11] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:13:26,905 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:13:26,906 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:26] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:13:26,908 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 10:13:32,019 - __main__ - INFO - Request processed in 5.1116 seconds
+2025-03-17 10:13:32,021 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:32] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:13:39,088 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-17 10:13:39,089 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:39] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:13:39,092 - __main__ - INFO - Attempting to use Gemini API
+2025-03-17 10:13:47,645 - __main__ - INFO - Request processed in 8.5541 seconds
+2025-03-17 10:13:47,646 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:13:47] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-17 10:14:01,825 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-17 10:14:01,828 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:14:01] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-17 10:14:01,831 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-17 10:14:01,832 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:14:01] "POST /api/complete HTTP/1.1" 200 -
