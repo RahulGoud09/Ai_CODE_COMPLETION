@@ -1602,3 +1602,449 @@ openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded you
 2025-03-17 10:14:01,828 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:14:01] "OPTIONS /api/complete HTTP/1.1" 200 -
 2025-03-17 10:14:01,831 - __main__ - INFO - Request processed in 0.0006 seconds
 2025-03-17 10:14:01,832 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:14:01] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:17:15,892 - __main__ - INFO - Starting Flask server...
+2025-03-23 18:17:15,892 - __main__ - INFO - Server will run on port 5002
+2025-03-23 18:17:15,892 - __main__ - INFO - Available routes:
+2025-03-23 18:17:15,892 - __main__ - INFO -   /static/<path:filename>
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/complete
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/languages
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/auth/login
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/admin/stats
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/health
+2025-03-23 18:17:15,893 - __main__ - INFO -   /api/ai/completion
+2025-03-23 18:17:15,893 - __main__ - INFO -   /
+2025-03-23 18:17:15,908 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.101:5002
+2025-03-23 18:17:15,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 18:17:15,908 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 18:17:16,511 - __main__ - INFO - Starting Flask server...
+2025-03-23 18:17:16,512 - __main__ - INFO - Server will run on port 5002
+2025-03-23 18:17:16,512 - __main__ - INFO - Available routes:
+2025-03-23 18:17:16,512 - __main__ - INFO -   /static/<path:filename>
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/complete
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/languages
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/auth/login
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/admin/stats
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/health
+2025-03-23 18:17:16,512 - __main__ - INFO -   /api/ai/completion
+2025-03-23 18:17:16,512 - __main__ - INFO -   /
+2025-03-23 18:17:16,514 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 18:17:16,519 - werkzeug - INFO -  * Debugger PIN: 822-774-164
+2025-03-23 18:17:21,970 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:17:21,972 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:17:21] "GET / HTTP/1.1" 200 -
+2025-03-23 18:17:22,036 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:17:22,037 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:17:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-23 18:17:45,574 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:17:45,574 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:17:45] "GET / HTTP/1.1" 200 -
+2025-03-23 18:17:45,576 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:17:45,577 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:17:45] "GET / HTTP/1.1" 200 -
+2025-03-23 18:18:49,187 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:18:49,188 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:18:49] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:18:49,191 - __main__ - INFO - Request processed in 0.0009 seconds
+2025-03-23 18:18:49,192 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:18:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:18:50,023 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-23 18:18:50,024 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:18:50] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:18:51,954 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:18:51,955 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:18:51] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:18:51,957 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:18:53,993 - __main__ - INFO - Request processed in 2.0368 seconds
+2025-03-23 18:18:53,995 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:18:53] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:19:15,802 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:19:15,802 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:15] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:15,806 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:19:15,806 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:15] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:17,213 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:19:17,214 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:17] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:19:17,217 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:19:19,382 - __main__ - INFO - Request processed in 2.1660 seconds
+2025-03-23 18:19:19,384 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:19] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:19:34,707 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:19:34,708 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:34] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:34,710 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:19:34,710 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:34] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,212 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-23 18:19:35,213 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,279 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:35,280 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,364 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:35,365 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,451 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:35,452 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,535 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-23 18:19:35,536 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,620 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:19:35,620 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,700 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:35,700 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,782 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:19:35,782 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:35,984 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:35,985 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:35] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:36,180 - __main__ - INFO - Request processed in 0.0009 seconds
+2025-03-23 18:19:36,181 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:36] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:36,412 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:19:36,412 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:36] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:36,701 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:19:36,702 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:36] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:36,877 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-23 18:19:36,878 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:36] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:37,092 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-23 18:19:37,093 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:37,308 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:19:37,309 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:37,603 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-23 18:19:37,604 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:19:37,801 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:19:37,801 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:19:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:46,015 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:20:46,016 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:46] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:46,019 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:20:46,019 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:46] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:52,309 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-23 18:20:52,310 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:52] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:52,313 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:20:52,313 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:52] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:52,793 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:20:52,794 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:52] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:53,195 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:20:53,196 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:53] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:53,462 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:20:53,463 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:53] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:20:56,673 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:20:56,674 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:56] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:20:56,677 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:20:58,560 - __main__ - INFO - Request processed in 1.8835 seconds
+2025-03-23 18:20:58,561 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:20:58] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:21:31,848 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:21:31,849 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:21:31] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:21:31,854 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-23 18:21:31,854 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:21:31] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:21:37,355 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:21:37,356 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:21:37] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:21:37,359 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:21:37,359 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:21:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:22:38,829 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:22:38,832 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:38] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:22:38,834 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:22:46,307 - __main__ - INFO - Request processed in 7.4730 seconds
+2025-03-23 18:22:46,308 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:46] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:22:51,000 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:22:51,001 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:51] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:22:51,003 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:22:51,003 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:51] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:22:52,094 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:22:52,095 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:52] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:22:52,097 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:22:53,293 - __main__ - INFO - Request processed in 1.1962 seconds
+2025-03-23 18:22:53,294 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:22:53] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:23:05,989 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:23:05,990 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:05] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:05,994 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-23 18:23:05,995 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:05] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:08,823 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:23:08,824 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:08] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:09,049 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:23:09,050 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:09,221 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-23 18:23:09,221 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:09,445 - __main__ - INFO - Request processed in 0.0009 seconds
+2025-03-23 18:23:09,446 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:09] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:10,197 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-23 18:23:10,198 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:10] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:23:56,991 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:23:56,991 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:56] "GET / HTTP/1.1" 200 -
+2025-03-23 18:23:56,994 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:23:56,994 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:23:56] "GET / HTTP/1.1" 200 -
+2025-03-23 18:24:27,353 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:24:27,354 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:24:27] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:24:27,357 - __main__ - INFO - Request processed in 0.0007 seconds
+2025-03-23 18:24:27,357 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:24:27] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:24:28,276 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:24:28,277 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:24:28] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:24:28,280 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:24:29,756 - __main__ - INFO - Request processed in 1.4766 seconds
+2025-03-23 18:24:29,757 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:24:29] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:25:01,193 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-23 18:25:01,193 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:01] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:25:01,196 - __main__ - INFO - Attempting to use Gemini API
+2025-03-23 18:25:02,509 - __main__ - INFO - Request processed in 1.3137 seconds
+2025-03-23 18:25:02,510 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:02] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-23 18:25:16,011 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:25:16,012 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:16] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-23 18:25:16,014 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-23 18:25:16,014 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:16] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:25:19,824 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-23 18:25:19,825 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:19] "POST /api/complete HTTP/1.1" 200 -
+2025-03-23 18:25:57,906 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:25:57,906 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:57] "GET / HTTP/1.1" 200 -
+2025-03-23 18:25:57,910 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-23 18:25:57,910 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 18:25:57] "GET / HTTP/1.1" 200 -
+2025-03-24 10:13:58,423 - __main__ - INFO - Starting Flask server...
+2025-03-24 10:13:58,424 - __main__ - INFO - Server will run on port 5002
+2025-03-24 10:13:58,424 - __main__ - INFO - Available routes:
+2025-03-24 10:13:58,424 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/complete
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/languages
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/auth/login
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/admin/stats
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/health
+2025-03-24 10:13:58,424 - __main__ - INFO -   /api/ai/completion
+2025-03-24 10:13:58,424 - __main__ - INFO -   /
+2025-03-24 10:14:04,805 - __main__ - INFO - Starting Flask server...
+2025-03-24 10:14:04,805 - __main__ - INFO - Server will run on port 5002
+2025-03-24 10:14:04,805 - __main__ - INFO - Available routes:
+2025-03-24 10:14:04,805 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 10:14:04,805 - __main__ - INFO -   /api/complete
+2025-03-24 10:14:04,806 - __main__ - INFO -   /api/languages
+2025-03-24 10:14:04,806 - __main__ - INFO -   /api/auth/login
+2025-03-24 10:14:04,806 - __main__ - INFO -   /api/admin/stats
+2025-03-24 10:14:04,806 - __main__ - INFO -   /api/health
+2025-03-24 10:14:04,806 - __main__ - INFO -   /api/ai/completion
+2025-03-24 10:14:04,806 - __main__ - INFO -   /
+2025-03-24 10:14:59,134 - __main__ - INFO - Starting Flask server...
+2025-03-24 10:14:59,135 - __main__ - INFO - Server will run on port 5002
+2025-03-24 10:14:59,135 - __main__ - INFO - Available routes:
+2025-03-24 10:14:59,135 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/complete
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/languages
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/auth/login
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/admin/stats
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/health
+2025-03-24 10:14:59,135 - __main__ - INFO -   /api/ai/completion
+2025-03-24 10:14:59,135 - __main__ - INFO -   /
+2025-03-24 10:14:59,147 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.137.161:5002
+2025-03-24 10:14:59,147 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 10:14:59,148 - werkzeug - INFO -  * Restarting with stat
+2025-03-24 10:14:59,824 - __main__ - INFO - Starting Flask server...
+2025-03-24 10:14:59,824 - __main__ - INFO - Server will run on port 5002
+2025-03-24 10:14:59,824 - __main__ - INFO - Available routes:
+2025-03-24 10:14:59,824 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/complete
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/languages
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/auth/login
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/admin/stats
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/health
+2025-03-24 10:14:59,824 - __main__ - INFO -   /api/ai/completion
+2025-03-24 10:14:59,824 - __main__ - INFO -   /
+2025-03-24 10:14:59,826 - werkzeug - WARNING -  * Debugger is active!
+2025-03-24 10:14:59,834 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-24 10:15:01,287 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-24 10:15:01,288 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:01] "[33mGET /ws HTTP/1.1[0m" 404 -
+2025-03-24 10:15:10,286 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-24 10:15:10,287 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:10] "[33mGET /ws HTTP/1.1[0m" 404 -
+2025-03-24 10:15:14,004 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 10:15:14,004 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:14] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:14,017 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 10:15:14,018 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 10:15:17,737 - __main__ - INFO - Attempting to use Gemini API
+2025-03-24 10:15:19,635 - __main__ - INFO - Request processed in 1.8990 seconds
+2025-03-24 10:15:19,637 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:19] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-24 10:15:23,367 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:23,367 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:23] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:23,379 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:23,379 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 10:15:28,175 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:28,176 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:28] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:36,118 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:36,119 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:36] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:40,050 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:40,051 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:40] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:42,905 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:42,907 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:42] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:43,459 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 10:15:43,460 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:43] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:43,639 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-24 10:15:43,641 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:43] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:43,805 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:43,805 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:43] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:53,183 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 10:15:53,183 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:53] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:53,185 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-24 10:15:53,185 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:53] "GET / HTTP/1.1" 200 -
+2025-03-24 10:15:58,120 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-24 10:15:58,122 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:58] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-24 10:15:58,126 - __main__ - INFO - Request processed in 0.0013 seconds
+2025-03-24 10:15:58,128 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:15:58] "POST /api/complete HTTP/1.1" 200 -
+2025-03-24 10:16:55,745 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 10:16:55,746 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:16:55] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-24 10:16:55,749 - __main__ - INFO - Attempting to use Gemini API
+2025-03-24 10:16:57,390 - __main__ - INFO - Request processed in 1.6414 seconds
+2025-03-24 10:16:57,391 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:16:57] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-24 10:18:07,619 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 10:18:07,619 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:18:07] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-24 10:18:07,624 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-24 10:18:07,625 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:18:07] "POST /api/complete HTTP/1.1" 200 -
+2025-03-24 10:18:11,410 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-24 10:18:11,410 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 10:18:11] "POST /api/complete HTTP/1.1" 200 -
+2025-03-24 13:56:47,017 - __main__ - INFO - Starting Flask server...
+2025-03-24 13:56:47,018 - __main__ - INFO - Server will run on port 5002
+2025-03-24 13:56:47,018 - __main__ - INFO - Available routes:
+2025-03-24 13:56:47,018 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/complete
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/languages
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/auth/login
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/admin/stats
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/health
+2025-03-24 13:56:47,018 - __main__ - INFO -   /api/ai/completion
+2025-03-24 13:56:47,018 - __main__ - INFO -   /
+2025-03-24 13:56:47,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.15.54.217:5002
+2025-03-24 13:56:47,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 13:56:47,033 - werkzeug - INFO -  * Restarting with stat
+2025-03-24 13:56:47,646 - __main__ - INFO - Starting Flask server...
+2025-03-24 13:56:47,646 - __main__ - INFO - Server will run on port 5002
+2025-03-24 13:56:47,646 - __main__ - INFO - Available routes:
+2025-03-24 13:56:47,646 - __main__ - INFO -   /static/<path:filename>
+2025-03-24 13:56:47,646 - __main__ - INFO -   /api/complete
+2025-03-24 13:56:47,646 - __main__ - INFO -   /api/languages
+2025-03-24 13:56:47,646 - __main__ - INFO -   /api/auth/login
+2025-03-24 13:56:47,646 - __main__ - INFO -   /api/admin/stats
+2025-03-24 13:56:47,646 - __main__ - INFO -   /api/health
+2025-03-24 13:56:47,647 - __main__ - INFO -   /api/ai/completion
+2025-03-24 13:56:47,647 - __main__ - INFO -   /
+2025-03-24 13:56:47,649 - werkzeug - WARNING -  * Debugger is active!
+2025-03-24 13:56:47,654 - werkzeug - INFO -  * Debugger PIN: 106-860-538
+2025-03-24 13:57:11,552 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 13:57:11,552 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:11] "GET / HTTP/1.1" 200 -
+2025-03-24 13:57:11,554 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 13:57:11,554 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:11] "GET / HTTP/1.1" 200 -
+2025-03-24 13:57:11,560 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-24 13:57:11,560 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:11] "GET / HTTP/1.1" 200 -
+2025-03-24 13:57:11,562 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-24 13:57:11,562 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:11] "GET / HTTP/1.1" 200 -
+2025-03-24 13:57:37,835 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 13:57:37,836 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:37] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-24 13:57:37,839 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-24 13:57:37,840 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:37] "POST /api/complete HTTP/1.1" 200 -
+2025-03-24 13:57:39,461 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-24 13:57:39,462 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:39] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-24 13:57:39,465 - __main__ - INFO - Attempting to use Gemini API
+2025-03-24 13:57:42,543 - __main__ - INFO - Request processed in 3.0789 seconds
+2025-03-24 13:57:42,545 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:42] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-24 13:57:59,701 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-24 13:57:59,702 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:59] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-24 13:57:59,706 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-24 13:57:59,706 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:57:59] "POST /api/complete HTTP/1.1" 200 -
+2025-03-24 13:58:03,275 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-24 13:58:03,276 - werkzeug - INFO - 127.0.0.1 - - [24/Mar/2025 13:58:03] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:25:51,204 - __main__ - INFO - Starting Flask server...
+2025-03-25 07:25:51,209 - __main__ - INFO - Server will run on port 5002
+2025-03-25 07:25:51,209 - __main__ - INFO - Available routes:
+2025-03-25 07:25:51,209 - __main__ - INFO -   /static/<path:filename>
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/complete
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/languages
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/auth/login
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/admin/stats
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/health
+2025-03-25 07:25:51,209 - __main__ - INFO -   /api/ai/completion
+2025-03-25 07:25:51,209 - __main__ - INFO -   /
+2025-03-25 07:25:51,223 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.102:5002
+2025-03-25 07:25:51,223 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 07:25:51,224 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 07:25:51,545 - __main__ - INFO - Starting Flask server...
+2025-03-25 07:25:51,545 - __main__ - INFO - Server will run on port 5002
+2025-03-25 07:25:51,545 - __main__ - INFO - Available routes:
+2025-03-25 07:25:51,545 - __main__ - INFO -   /static/<path:filename>
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/complete
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/languages
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/auth/login
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/admin/stats
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/health
+2025-03-25 07:25:51,545 - __main__ - INFO -   /api/ai/completion
+2025-03-25 07:25:51,545 - __main__ - INFO -   /
+2025-03-25 07:25:51,547 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 07:25:51,556 - werkzeug - INFO -  * Debugger PIN: 101-096-643
+2025-03-25 07:26:15,145 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:26:15,145 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 07:26:19,907 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:26:19,907 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:19] "GET / HTTP/1.1" 200 -
+2025-03-25 07:26:19,909 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:26:19,909 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:19] "GET / HTTP/1.1" 200 -
+2025-03-25 07:26:19,910 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-25 07:26:19,911 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:19] "GET / HTTP/1.1" 200 -
+2025-03-25 07:26:19,912 - __main__ - INFO - Request processed in 0.0000 seconds
+2025-03-25 07:26:19,912 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:19] "GET / HTTP/1.1" 200 -
+2025-03-25 07:26:33,082 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:26:33,083 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:33] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:33,085 - __main__ - INFO - Request processed in 0.0010 seconds
+2025-03-25 07:26:33,085 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:33] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:35,109 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:26:35,110 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:35] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:26:35,113 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:26:37,315 - __main__ - INFO - Request processed in 2.2033 seconds
+2025-03-25 07:26:37,316 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:37] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:26:47,588 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:26:47,589 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:47] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:47,591 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:26:47,592 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:47] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:48,538 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-25 07:26:48,542 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:48,722 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:26:48,757 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:48,921 - __main__ - INFO - Request processed in 0.0006 seconds
+2025-03-25 07:26:48,922 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:48] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:49,589 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:26:49,590 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:49] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:26:59,226 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-25 07:26:59,227 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:26:59] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:26:59,230 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:27:00,568 - __main__ - INFO - Request processed in 1.3386 seconds
+2025-03-25 07:27:00,569 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:27:00] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:45:47,866 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:45:47,866 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:45:47] "GET / HTTP/1.1" 200 -
+2025-03-25 07:45:47,867 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:45:47,867 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:45:47] "GET / HTTP/1.1" 200 -
+2025-03-25 07:46:17,184 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:46:17,185 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:46:17] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:46:17,187 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:46:17,188 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:46:17] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:46:17,978 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:46:17,979 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:46:17] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:46:17,982 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:46:21,780 - __main__ - INFO - Request processed in 3.7986 seconds
+2025-03-25 07:46:21,781 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:46:21] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:49:22,600 - __main__ - INFO - Request processed in 0.0008 seconds
+2025-03-25 07:49:22,601 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:22] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:49:22,604 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-25 07:49:22,605 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:22] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:49:23,645 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:49:23,646 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:23] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:49:23,648 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:49:25,661 - __main__ - INFO - Request processed in 2.0133 seconds
+2025-03-25 07:49:25,662 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:25] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:49:31,901 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:49:31,902 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:31] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:49:31,906 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:49:31,907 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:31] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:49:37,566 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:49:37,567 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:37] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:49:37,570 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:49:39,894 - __main__ - INFO - Request processed in 2.3246 seconds
+2025-03-25 07:49:39,895 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:39] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:49:42,250 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-25 07:49:42,250 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:42] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:49:42,254 - __main__ - INFO - Request processed in 0.0005 seconds
+2025-03-25 07:49:42,255 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:49:42] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:51:29,877 - __main__ - INFO - Request processed in 0.0001 seconds
+2025-03-25 07:51:29,878 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:29] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:51:29,880 - __main__ - INFO - Request processed in 0.0003 seconds
+2025-03-25 07:51:29,880 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:29] "POST /api/complete HTTP/1.1" 200 -
+2025-03-25 07:51:34,348 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:51:34,349 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:34] "OPTIONS /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:51:34,353 - __main__ - INFO - Attempting to use Gemini API
+2025-03-25 07:51:36,322 - __main__ - INFO - Request processed in 1.9694 seconds
+2025-03-25 07:51:36,323 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:36] "POST /api/ai/completion HTTP/1.1" 200 -
+2025-03-25 07:51:41,683 - __main__ - INFO - Request processed in 0.0002 seconds
+2025-03-25 07:51:41,684 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:41] "OPTIONS /api/complete HTTP/1.1" 200 -
+2025-03-25 07:51:41,687 - __main__ - INFO - Request processed in 0.0004 seconds
+2025-03-25 07:51:41,688 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 07:51:41] "POST /api/complete HTTP/1.1" 200 -
