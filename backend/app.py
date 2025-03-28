@@ -366,8 +366,7 @@ def create_app(test_config=None):
             return jsonify({
                 'response': response,
                 'model': 'gemini-1.5-pro',
-                'timestamp': datetime.now().isoformat(),
-                'provider': 'gemini'
+                'timestamp': datetime.now().isoformat()
             })
                 
         except Exception as e:
@@ -389,10 +388,9 @@ def create_app(test_config=None):
             )
             
             return jsonify({
-                'response': f"[MOCK RESPONSE - API failed]\n\n{mock_response}",
+                'response': mock_response,
                 'model': 'mock',
-                'timestamp': datetime.now().isoformat(),
-                'provider': 'mock'
+                'timestamp': datetime.now().isoformat()
             })
 
     # Register blueprint
@@ -603,9 +601,8 @@ def get_advanced_suggestions(code_snippet: str, language: str, context: str = ""
     return sorted(suggestions, key=lambda x: x['confidence'], reverse=True)[:5]
 
 if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5003))  # Default to 5003 if PORT not set
     app = create_app()
-    # Change default port from 5000 to 5001 to avoid conflicts with AirPlay on macOS
-    port = int(os.environ.get("PORT", 5002))
     
     # Add more debug information
     logger.info("Starting Flask server...")
@@ -614,6 +611,4 @@ if __name__ == '__main__':
     for rule in app.url_map.iter_rules():
         logger.info(f"  {rule}")
     
-    app.run(debug=os.environ.get("FLASK_DEBUG", "true").lower() == "true", 
-            host='0.0.0.0', 
-            port=port)
+    app.run(debug=True, port=port)
